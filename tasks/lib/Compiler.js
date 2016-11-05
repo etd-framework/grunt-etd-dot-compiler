@@ -166,12 +166,6 @@ Compiler.prototype.compileTemplates = function(files) {
     }
   }
 
-  if(this.opt.requirejs && !this.opt.node) {
-    js += 'if(typeof define !== \'function\') {' + grunt.util.linefeed;
-    js += '  define = require(\'amdefine\')(module);' + grunt.util.linefeed;
-    js += '}' + grunt.util.linefeed;
-  }
-
   if(this.opt.requirejs) {
     js += define + '(function() {';
   }
