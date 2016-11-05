@@ -1,7 +1,7 @@
 {
   "name": "grunt-etd-dot-compiler",
   "description": "Grunt task for compiling doT templates with external defs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/etd-framework/grunt-etd-dot-compiler",
   "author": {
     "name": "ETD Solutions",
