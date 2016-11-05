@@ -1,0 +1,34 @@
+{
+  "name": "grunt-etd-dot-compiler",
+  "description": "Grunt task for compiling doT templates with external defs",
+  "version": "0.1.0",
+  "homepage": "https://github.com/etd-framework/grunt-etd-dot-compiler",
+  "author": {
+    "name": "ETD Solutions",
+    "email": "contact@etd-solutions.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etd-framework/grunt-etd-dot-compiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/etd-framework/grunt-etd-dot-compiler/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/etd-framework/grunt-etd-dot-compiler/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "dot": "^1.1.0",
+    "grunt": "~0.4.5",
+    "path": "^0.12.7"
+  },
+  "keywords": [
+    "dot", "dot.js"
+  ]
+}
